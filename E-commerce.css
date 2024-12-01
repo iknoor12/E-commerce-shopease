@@ -1,0 +1,218 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1174e5b7;
+    color: #fff;
+    padding: 10px 20px;
+}
+header .site {
+    width: 25px;
+    height: 25px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.caption1 {
+    font-size: 19px;
+    padding-top: 15px;
+    color: palevioletred;
+}
+.caption2 {
+    font-size: 30px;
+    margin-top: -9px;
+    color: palevioletred;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+header nav ul li:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.42);
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.search-container {
+    text-align: right;
+    padding-right: 25px;
+    margin-top: -30px;
+}
+.search-container input {
+    font-size: 20px;
+}
+.search-container button {
+    font-size: 18px;
+}
+.search-container span {
+    font-size: 20px;
+}
+
+#hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #83c7f855;
+    padding-bottom: 170px;
+}
+
+#hero h1 {
+    margin: 0 0 10px;
+    font-size: 36px;
+    font-weight: 600;
+}
+#hero img {
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+#hero .categories {
+    text-align: left;
+    font-weight: 700;
+    font-size: 20px;
+}
+.Cpics {
+    display: flex; /* Arrange images in a row */
+    gap: 16px; /* Add space between images */
+    justify-content: center; /* Optional: Center the images horizontally */
+    align-items: center; /* Optional: Align images vertically */
+    margin-bottom: -130px;
+}
+#hero .C1 {
+    border: 2px solid rgb(246, 242, 242);
+    border-radius: 130px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+#hero .C1:hover {
+    transform: scale(1.20);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.42);
+
+}
+
+.product-card {
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.42);
+}
+
+
+.product-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.product-section .sale1 {
+    width: 600px;
+    height: 400px;
+    float: left;
+    margin-right: -600px;
+    margin-left: 50px;
+}
+
+.product-section .sale2 {
+    width: 500px;
+    height: 300px;
+    float: left;
+    margin-right: -600px;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+.product-section .sale3 {
+    width: 500px;
+    height: 790px;
+    float: right;
+    margin-right: 90px; 
+    margin-left: -700px;  
+    margin-top: 190px;  
+}
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #333;
+}
+
+.product-card button {
+    background-color: #db3232ab;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.product-card button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
