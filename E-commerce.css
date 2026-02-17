@@ -39,28 +39,25 @@ header .logo {
 header nav ul {
     list-style: none;
     display: flex;
-    gap: 15px;
+    /* gap: 8px; */
     margin: 0;
     padding: 0;
 }
 
 header nav ul li {
     margin: 0;
-    border: 1px solid whitesmoke;
-    border-radius: 4px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0.4rem;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 header nav ul li:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.42);
+    transform: scale(1.04);
 }
 
 header nav ul li a {
     text-decoration: none;
     color: #fff;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 17px;
     padding: 10px;
 }
 
