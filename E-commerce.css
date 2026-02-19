@@ -64,6 +64,7 @@ header nav ul li a {
 
 /*  HERO SECTION  */
 #hero {
+    display: grid;
     text-align: center;
     padding: 50px 5%;
     background-color: #83c7f855;
@@ -130,23 +131,28 @@ header nav ul li a {
 
 
 .Cpics {
-    display: flex; /* Arrange images in a row */
-    gap: 16px; /* Add space between images */
-    justify-content: center; /* Optional: Center the images horizontally */
-    align-items: center; /* Optional: Align images vertically */
-    margin-bottom: -130px;
+    display: flex; 
+    gap: 15px; 
+    scroll-behavior: smooth;
+    overflow-x: auto;
+    /* background-color: aqua; */
+    padding: 0.5rem;
 }
-/* #hero .C1 {
-    border: 2px solid rgb(246, 242, 242);
-    border-radius: 130px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-#hero .C1:hover {
-    transform: scale(1.20);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.42);
 
-} */
+.Cpics img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius: 80px;
+    transition: transform 0.3s;
+    border: 2px solid white;
+}
+.Cpics img:hover {
+    transform: scale(1.1);
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.321);
+}
+
 
 /* .product-card {
     width: 80%;
