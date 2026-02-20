@@ -129,14 +129,14 @@ header nav ul li a {
 }
 
 
-
+/*  ALL CATEGORIES SECTION  */
 .Cpics {
     display: flex; 
     gap: 15px; 
     scroll-behavior: smooth;
     overflow-x: auto;
     /* background-color: aqua; */
-    padding: 0.5rem;
+    padding: 0.7rem;
 }
 
 .Cpics img {
@@ -154,7 +154,45 @@ header nav ul li a {
 }
 
 
-/* .product-card {
+/*  PRODUCTS  */
+.product-section {
+    text-align: center;
+    /* margin-bottom: 20px; */
+    background-color: aquamarine;
+}
+
+.product-section .sale1 {
+    width: 600px;
+    height: 400px;
+    float: left;
+    margin-right: -600px;
+    margin-left: 50px;
+}
+/* .product-section .sale2 {
+    width: 500px;
+    height: 300px;
+    float: left;
+    margin-right: -600px;
+    margin-left: 50px;
+    margin-top: 200px;
+} */
+.product-section .sale3 {
+    width: 500px;
+    height: 790px;
+    float: right;
+    margin-right: 90px; 
+    margin-left: -700px;  
+    margin-top: 190px;  
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-card {
     width: 80%;
     padding: 20px;
     text-align: center;
@@ -168,42 +206,6 @@ header nav ul li a {
 .product-card:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.42);
-} */
-
-
-/* .product-section h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-.product-section .sale1 {
-    width: 600px;
-    height: 400px;
-    float: left;
-    margin-right: -600px;
-    margin-left: 50px;
-}
-
-.product-section .sale2 {
-    width: 500px;
-    height: 300px;
-    float: left;
-    margin-right: -600px;
-    margin-left: 50px;
-    margin-top: 200px;
-}
-.product-section .sale3 {
-    width: 500px;
-    height: 790px;
-    float: right;
-    margin-right: 90px; 
-    margin-left: -700px;  
-    margin-top: 190px;  
-} */
-/* .product-grid {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
 }
 
 .product-card {
@@ -213,7 +215,7 @@ header nav ul li a {
     text-align: center;
     padding: 10px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-} */
+}
 
 /* .product-card img {
     width: 100%;
@@ -245,6 +247,8 @@ header nav ul li a {
     background-color: #555;
 } */
 
+
+/*  FOOTER  */
 footer {
     text-align: center;
     padding: 10px;
