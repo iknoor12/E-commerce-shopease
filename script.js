@@ -20,7 +20,7 @@ function renderAllCategories() {
         return;
     }
 
-    const basePath = "assets/images/";
+    const basePath = "assets/all-categories/";
     const fragment = document.createDocumentFragment();
 
     categoryImages.forEach((fileName) => {
