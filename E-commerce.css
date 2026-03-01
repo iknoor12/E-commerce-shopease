@@ -85,7 +85,6 @@ header nav ul li a {
     justify-content: flex-start;
     align-items: center;
     gap: 25%;
-    /* background-color: aqua; */
 }
 
 .caption1 {
@@ -108,7 +107,6 @@ header nav ul li a {
     gap: 15px;
     margin-bottom: 20px;
     flex-wrap: wrap;
-    /* background-color: aqua; */
 }
 
 .search-bar {
@@ -135,7 +133,6 @@ header nav ul li a {
     gap: 15px; 
     scroll-behavior: smooth;
     overflow-x: auto;
-    /* background-color: aqua; */
     padding: 0.7rem;
 }
 
@@ -163,10 +160,9 @@ header nav ul li a {
 .product-section {
     text-align: center;
     display: grid;
-    /* background-color: aquamarine; */
 }
 
-.product-section .sale1 {
+/* .product-section .sale1 {
     width: 400px;
     height: 300px;
     float: left;
@@ -180,7 +176,7 @@ header nav ul li a {
     width: 500px;
     height: 790px;
     float: right; 
-}
+} */
 
 .product-grid {
     display: flex;
